@@ -1,3 +1,11 @@
 .hidden {
   display: none;
 }
+
+.special-colors {
+  color: red
+}
+
+.increase-size {
+  font-size: 16px
+}
