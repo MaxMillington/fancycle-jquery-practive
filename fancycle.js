@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
     $('#justin').click(function(){
-
         var song = $('#baby'),
             counter = song.find('#view-counter').text();
         hideSong(song);
@@ -11,6 +10,7 @@ $(document).ready(function(){
         decrease('#baby');
 
     });
+
     $('#selena').click(function(){
         var song = $('#come-and-get-it'),
             counter = song.find('#view-counter').text();
